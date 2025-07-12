@@ -1,0 +1,7 @@
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/lib/raylib.lib
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/include/raylib.h
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/include/rlgl.h
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/include/raymath.h
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/lib/pkgconfig/raylib.pc
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/lib/cmake/raylib/raylib-config.cmake

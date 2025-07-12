@@ -1,0 +1,1323 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\shared"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+      Compilaci├│n iniciada a las 11/07/2025 22:04:08.
+      
+      Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.54
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/4.1.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/lld-link.com"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/lld-link.exe"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/lld-link"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/lld-link.com"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/lld-link.exe"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/lld-link"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.com"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.exe"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/belen/.cargo/bin/lld-link.com"
+      - "C:/Users/belen/.cargo/bin/lld-link.exe"
+      - "C:/Users/belen/.cargo/bin/lld-link"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/lld-link.com"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/lld-link.exe"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/lld-link"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.com"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.exe"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\cppwinrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\shared"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+      Compilaci├│n iniciada a las 11/07/2025 22:04:11.
+      
+      Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\4.1.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.63
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/4.1.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/lld-link"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/lld-link.com"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/lld-link.exe"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/lld-link"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/lld-link.com"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/lld-link.exe"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/lld-link"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.com"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link.exe"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/lld-link"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.com"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link.exe"
+      - "C:/ProgramData/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/belen/.cargo/bin/lld-link.com"
+      - "C:/Users/belen/.cargo/bin/lld-link.exe"
+      - "C:/Users/belen/.cargo/bin/lld-link"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/lld-link.com"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/lld-link.exe"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/lld-link"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.com"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link.exe"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:573 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:546 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/deps/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/x86_64-pc-windows-msvc/lib/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/belen/.cargo/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/belen/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/belen/Downloads/apache-maven-3.9.4-bin/apache-maven-3.9.4/bin/"
+      - "C:/Users/belen/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/belen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/belen/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/bin/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/sbin/"
+      - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\deps"
+        - "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\belen\\.cargo\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\belen\\Downloads\\apache-maven-3.9.4-bin\\apache-maven-3.9.4\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\belen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\belen\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jlwe4r"
+      binary: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jlwe4r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jlwe4r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3f94a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 11/07/2025 22:04:15.
+        
+        Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlwe4r\\cmTC_3f94a.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_3f94a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlwe4r\\Debug\\".
+          Creando directorio "cmTC_3f94a.dir\\Debug\\cmTC_3f94a.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_3f94a.dir\\Debug\\cmTC_3f94a.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_3f94a.dir\\Debug\\cmTC_3f94a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Fo"cmTC_3f94a.dir\\Debug\\\\" /Fd"cmTC_3f94a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlwe4r\\Debug\\cmTC_3f94a.exe" /INCREMENTAL /ILK:"cmTC_3f94a.dir\\Debug\\cmTC_3f94a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jlwe4r/Debug/cmTC_3f94a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jlwe4r/Debug/cmTC_3f94a.lib" /MACHINE:X64  /machine:x64 cmTC_3f94a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3f94a.vcxproj -> C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlwe4r\\Debug\\cmTC_3f94a.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_3f94a.dir\\Debug\\cmTC_3f94a.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_3f94a.dir\\Debug\\cmTC_3f94a.tlog\\cmTC_3f94a.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jlwe4r\\cmTC_3f94a.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-rm4nb6"
+      binary: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-rm4nb6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_CXX_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-rm4nb6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a159e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 11/07/2025 22:04:18.
+        
+        Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm4nb6\\cmTC_a159e.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_a159e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm4nb6\\Debug\\".
+          Creando directorio "cmTC_a159e.dir\\Debug\\cmTC_a159e.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_a159e.dir\\Debug\\cmTC_a159e.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_a159e.dir\\Debug\\cmTC_a159e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Fo"cmTC_a159e.dir\\Debug\\\\" /Fd"cmTC_a159e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm4nb6\\Debug\\cmTC_a159e.exe" /INCREMENTAL /ILK:"cmTC_a159e.dir\\Debug\\cmTC_a159e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-rm4nb6/Debug/cmTC_a159e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-rm4nb6/Debug/cmTC_a159e.lib" /MACHINE:X64  /machine:x64 cmTC_a159e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a159e.vcxproj -> C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm4nb6\\Debug\\cmTC_a159e.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_a159e.dir\\Debug\\cmTC_a159e.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_a159e.dir\\Debug\\cmTC_a159e.tlog\\cmTC_a159e.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rm4nb6\\cmTC_a159e.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-ge1czh"
+      binary: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-ge1czh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-ge1czh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f9374.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 11/07/2025 22:04:21.
+        
+        Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\cmTC_f9374.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_f9374.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\Debug\\".
+          Creando directorio "cmTC_f9374.dir\\Debug\\cmTC_f9374.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_f9374.dir\\Debug\\cmTC_f9374.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_f9374.dir\\Debug\\cmTC_f9374.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Fo"cmTC_f9374.dir\\Debug\\\\" /Fd"cmTC_f9374.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro -Werror=pointer-arith "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\cmTC_f9374.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\cmTC_f9374.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\cmTC_f9374.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1czh\\cmTC_f9374.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.92
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-x0dvn4"
+      binary: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-x0dvn4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-x0dvn4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d7c45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 11/07/2025 22:04:23.
+        
+        Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\cmTC_d7c45.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_d7c45.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\Debug\\".
+          Creando directorio "cmTC_d7c45.dir\\Debug\\cmTC_d7c45.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_d7c45.dir\\Debug\\cmTC_d7c45.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_d7c45.dir\\Debug\\cmTC_d7c45.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Fo"cmTC_d7c45.dir\\Debug\\\\" /Fd"cmTC_d7c45.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\src.c"
+          src.c
+        C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\cmTC_d7c45.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\cmTC_d7c45.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\cmTC_d7c45.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0dvn4\\cmTC_d7c45.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:01.17
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-l80pg8"
+      binary: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-l80pg8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-l80pg8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3fb8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 11/07/2025 22:04:26.
+        
+        Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\cmTC_3fb8e.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_3fb8e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\Debug\\".
+          Creando directorio "cmTC_3fb8e.dir\\Debug\\cmTC_3fb8e.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_3fb8e.dir\\Debug\\cmTC_3fb8e.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_3fb8e.dir\\Debug\\cmTC_3fb8e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Fo"cmTC_3fb8e.dir\\Debug\\\\" /Fd"cmTC_3fb8e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\Debug\\cmTC_3fb8e.exe" /INCREMENTAL /ILK:"cmTC_3fb8e.dir\\Debug\\cmTC_3fb8e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-l80pg8/Debug/cmTC_3fb8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-l80pg8/Debug/cmTC_3fb8e.lib" /MACHINE:X64  /machine:x64 cmTC_3fb8e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\cmTC_3fb8e.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\cmTC_3fb8e.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\cmTC_3fb8e.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l80pg8\\cmTC_3fb8e.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:01.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jfccax"
+      binary: "C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jfccax"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jfccax'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28aa2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 11/07/2025 22:04:28.
+        
+        Proyecto "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\cmTC_28aa2.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_28aa2.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\Debug\\".
+          Creando directorio "cmTC_28aa2.dir\\Debug\\cmTC_28aa2.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_28aa2.dir\\Debug\\cmTC_28aa2.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_28aa2.dir\\Debug\\cmTC_28aa2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Fo"cmTC_28aa2.dir\\Debug\\\\" /Fd"cmTC_28aa2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\Debug\\cmTC_28aa2.exe" /INCREMENTAL /ILK:"cmTC_28aa2.dir\\Debug\\cmTC_28aa2.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jfccax/Debug/cmTC_28aa2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-b134de7712974371/out/build/CMakeFiles/CMakeScratch/TryCompile-jfccax/Debug/cmTC_28aa2.lib" /MACHINE:X64  /machine:x64 cmTC_28aa2.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\cmTC_28aa2.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\cmTC_28aa2.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\cmTC_28aa2.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\belen\\GPC_FillingPolygon\\Filling_Polygon\\target\\debug\\build\\raylib-sys-b134de7712974371\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfccax\\cmTC_28aa2.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:01.48
+        
+      exitCode: 1
+...

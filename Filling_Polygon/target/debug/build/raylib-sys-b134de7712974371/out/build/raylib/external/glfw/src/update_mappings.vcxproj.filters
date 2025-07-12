@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\belen\GPC_FillingPolygon\Filling_Polygon\target\debug\build\raylib-sys-b134de7712974371\out\build\CMakeFiles\00c9b63e4fb12f99adb8d6fdb8e0ae35\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\belen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\src\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\belen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\src\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\belen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\belen\GPC_FillingPolygon\Filling_Polygon\target\debug\build\raylib-sys-b134de7712974371\out\build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B43B58AB-8679-38F9-A65C-AF910972B834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B76BA2DA-011D-3C69-8E78-388893AB8241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
