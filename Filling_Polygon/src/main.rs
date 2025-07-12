@@ -157,7 +157,70 @@ fn main() {
     dt.stroke(&path3, &stroke_color3, &stroke_style3, &DrawOptions::new());
 
 
- 
+    // -------------- Polígono 4: tiene un agujero: ---------------------
+    /*para el 4 */
+    let mut pb4 = PathBuilder::new();
+
+    // puntos dados para el cuatro (tipo tetera)
+    let polygon4 = vec![
+        (413.0, 177.0), (448.0, 159.0), (502.0, 88.0), (553.0, 53.0),
+        (535.0, 36.0), (676.0, 37.0), (660.0, 52.0), (750.0, 145.0),
+        (761.0, 179.0), (672.0, 192.0), (659.0, 214.0), (615.0, 214.0),
+         (632.0, 230.0), (580.0, 230.0), (597.0, 215.0), (552.0, 214.0),
+        (517.0, 144.0), (466.0, 180.0),
+    ];
+
+    // parte de afuera 
+    pb4.move_to(polygon4[0].0, polygon4[0].1);
+    for &(x, y) in &polygon4[1..]{
+        pb4.line_to(x, y);
+    }
+
+    pb4.close();
+
+    // ---------- Este debe ser el polígono 5
+    // Es el agujero 
+    let hole = vec![
+        (682.0, 175.0),  (708.0, 120.0),  (735.0, 148.0), (739.0, 170.0),
+    ];
+
+    // se pone en el sentido opuesto para ser un agujero
+    pb4.move_to(hole[0].0, hole[0].1);
+    for &(x, y) in hole[1..].iter().rev() {  // al opuesto
+        pb4.line_to(x, y);
+    }
+
+    pb4.line_to(hole[0].0, hole[0].1); /* se cierra */
+    pb4.close();
+
+    let path4 = pb4.finish();
+
+    // color verde 
+    let color4 = Source::Solid(SolidSource{
+        r: 80 ,
+        g: 210,
+        b: 53,
+        a: 255,
+    });
+    dt.fill(&path4, &color4, &DrawOptions::new());
+
+    // blanco 
+    let stroke_color4 = Source::Solid(SolidSource{
+        r: 255,
+        g: 255,
+        b: 255,
+        a: 255,
+    });
+
+    // pinta el contorno
+    let stroke_style4 = StrokeStyle {
+        width: 2.0,
+        ..StrokeStyle::default()
+    };
+
+     dt.stroke(&path4, &stroke_color4, &stroke_style4, &DrawOptions::new());
+
+
 
 
     // ---------- Exportar la imagen: ------------
