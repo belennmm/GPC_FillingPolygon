@@ -64,6 +64,54 @@ fn main() {
     dt.stroke(&path, &stroke_color, &stroke_style, &DrawOptions::new());
 
 
+    // -------------- Polígono 2: ---------------------
+
+    // otro path para el 2
+    let mut pb2 = PathBuilder::new();
+
+    // puntos dados del 2
+    let polygon2 = vec![
+        (321.0, 335.0),
+    (288.0, 286.0),
+        (339.0, 251.0),
+        (374.0, 302.0),
+    ];
+
+
+    pb2.move_to(polygon2[0].0, polygon2[0].1);
+    for &(x, y) in &polygon2[1..]{
+         pb2.line_to(x, y);
+    }
+    pb2.close();
+
+    let path2 = pb2.finish();
+
+    // relleno azul
+    let color2 = Source::Solid(SolidSource{
+        r: 39,
+        g: 82,
+        b: 200,
+        a: 255,
+    }) ;
+    dt.fill(&path2, &color2, &DrawOptions::new());
+
+    // orilla blanca
+    let stroke_color2 = Source::Solid(SolidSource{
+        r: 255,
+        g: 255,
+        b: 255,
+        a: 255,
+    });
+    // contorno
+    let stroke_style2 = StrokeStyle{
+         width: 2.0,
+        ..StrokeStyle::default()
+    };
+    dt.stroke(&path2, &stroke_color2, &stroke_style2, &DrawOptions::new());
+
+
+  
+
 
     // ---------- Exportar la imagen: ------------
 
