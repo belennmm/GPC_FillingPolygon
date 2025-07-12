@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\belen\GPC_FillingPolygon\Filling_Polygon\target\debug\build\raylib-sys-9f31809e11f6b411\out\build\CMakeFiles\20130e6ded5de765516a0f7d765cd67c\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\belen\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-5.5.1\raylib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\belen\GPC_FillingPolygon\Filling_Polygon\target\debug\build\raylib-sys-9f31809e11f6b411\out\build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ABCD68A2-E46D-3B77-8F00-97B04FD169FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\BELEN\GPC_FILLINGPOLYGON\FILLING_POLYGON\TARGET\DEBUG\BUILD\RAYLIB-SYS-9F31809E11F6B411\OUT\BUILD\CMAKEFILES\20130E6DED5DE765516A0F7D765CD67C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/belen/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib -BC:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-9f31809e11f6b411/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/belen/GPC_FillingPolygon/Filling_Polygon/target/debug/build/raylib-sys-9f31809e11f6b411/out/build/raylib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
