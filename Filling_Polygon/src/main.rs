@@ -110,7 +110,54 @@ fn main() {
     dt.stroke(&path2, &stroke_color2, &stroke_style2, &DrawOptions::new());
 
 
-  
+    // -------------- Polígono 3: ---------------------
+    // path para el 3
+    let mut pb3 = PathBuilder::new();
+
+    // puntos del triángulo dados
+    let polygon3 = vec![
+        (377.0, 249.0),
+        (411.0, 197.0),
+         (436.0, 249.0),
+    ];
+
+    pb3.move_to(polygon3[0].0, polygon3[0].1);
+    for &(x, y) in &polygon3[1..]{
+        pb3.line_to(x, y);
+    }
+     pb3.close();
+
+
+    let path3 = pb3.finish();
+
+    // color rojo
+    let color3 = Source::Solid(SolidSource{
+        r: 227,
+        g: 42,
+        b: 42,
+        a: 255,
+    });
+
+        dt.fill(&path3, &color3, &DrawOptions::new());
+
+    
+    // orilla blanca 
+    let stroke_color3 = Source::Solid(SolidSource{
+        r: 255,
+        g: 255,
+        b: 255,
+        a: 255,
+    });
+
+    let stroke_style3 = StrokeStyle{
+         width: 2.0,
+        ..StrokeStyle::default()
+    };
+
+    dt.stroke(&path3, &stroke_color3, &stroke_style3, &DrawOptions::new());
+
+
+ 
 
 
     // ---------- Exportar la imagen: ------------
