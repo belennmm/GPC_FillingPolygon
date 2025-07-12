@@ -243,5 +243,5 @@ fn main() {
         }
     }
         // se guarda en png
-    image.save("output.png").unwrap();
+    image.save("polygon.png").unwrap();
 }
